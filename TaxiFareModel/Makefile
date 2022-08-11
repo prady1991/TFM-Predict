@@ -2,10 +2,10 @@
 LOCAL_PATH=PATH_TO_FILE_train_1k.csv
 
 # project id
-PROJECT_ID=wagon-bootcamp-pradyumna
+PROJECT_ID=XXX
 
 # bucket name
-BUCKET_NAME=siprte1991
+BUCKET_NAME=XXX
 
 # bucket directory in which to store the uploaded file (we choose to name this data as a convention)
 BUCKET_FOLDER=data
@@ -95,4 +95,3 @@ clean:
 
 run_api:
 	uvicorn api.fast:app --reload  # load web server with code autoreload
-	
